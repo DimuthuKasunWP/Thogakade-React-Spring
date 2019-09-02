@@ -1,0 +1,7 @@
+.Container{
+    position: absolute;
+    margin-top: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,41 @@
+.Nav a{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    height: 131%;
+    width: 125px;
+    justify-content: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.Nav a:hover,a:active,a.active,a:focus{
+    background-color: orange;
+    border-bottom: 3px solid saddlebrown;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 650px) {
+
+    .Nav a{
+        background-color: dodgerblue;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        height: 46px;
+        width: 250px;
+        justify-content: center;
+        color: white;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .Nav a:hover,a:active,a.active,a:focus{
+        background-color: orange;
+        border-right: 3px solid saddlebrown;
+        border-bottom: none;
+        transition: 0.3s;
+    }
+}

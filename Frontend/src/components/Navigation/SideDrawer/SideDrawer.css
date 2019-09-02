@@ -1,0 +1,25 @@
+
+@media only screen and (max-width: 650px) {
+
+    .Open{
+        width: 250px;
+        z-index: 500;
+        height: 100%;
+        background-color: white;
+        position: fixed;
+        margin-top: 68px;
+        transition:transform  0.3s ease-in;
+        transform: translateX(0);
+    }
+
+    .Close{
+        width: 250px;
+        z-index: 500;
+        height: 100%;
+        background-color: white;
+        position: fixed;
+        margin-top: 68px;
+        transition:transform  0.3s ease-in;
+        transform: translateX(-100%);
+    }
+}

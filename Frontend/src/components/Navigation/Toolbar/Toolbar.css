@@ -1,0 +1,21 @@
+.Toolbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-right: 1.2%;
+}
+
+.Item{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .Toolbar{
+        display: none;
+    }
+
+}

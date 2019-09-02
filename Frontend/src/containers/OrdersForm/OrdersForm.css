@@ -1,0 +1,42 @@
+.Orders{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid lightgray;
+    box-shadow: 1px 1px 1px lightgray;
+    margin-left: 0px;
+    margin-right: 0px;
+    height:245px;
+    max-height: 245px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.Orders a div:hover{
+    box-shadow:  1px 2px 3px #cccccc;
+}
+
+.Orders img{
+    border:1px solid gray;
+}
+
+.Orders a{
+    text-decoration: none;
+}
+
+.Orders::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+/* Track */
+.Orders::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.Orders::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}

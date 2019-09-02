@@ -1,0 +1,22 @@
+
+@media only screen and (max-width: 650px) {
+    .Sidebar{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .Item{
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 651px) {
+    .Sidebar{
+        display: none;
+    }
+}

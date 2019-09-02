@@ -1,0 +1,31 @@
+.Container{
+    margin-top: 1%;
+    height:250px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid lightgray;
+    box-shadow: 1px 1px 1px lightgray;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.Container::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+/* Track */
+.Container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.Container::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}

@@ -1,0 +1,66 @@
+.tableSection {
+    display: table;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.tableSection thead,
+.tableSection tbody {
+    width: 100%;
+}
+
+.tableSection thead {
+    font-size: 12px;
+    overflow-y: scroll;
+    display: table;
+    table-layout: fixed;
+    /*width: calc(100% - 16px); !* assuming scrollbar width as 16px *!*/
+    width: 100%;
+}
+
+.tableSection thead tr th span{
+    color:white;
+    font-size: 13px;
+}
+
+.tableSection tbody {
+    overflow: auto;
+    height: 200px;
+    display: block;
+}
+
+.tableSection tbody tr{
+    height: 50px;
+    border-bottom:1px solid lightgray;
+    background-color: white;
+
+}
+
+.tableSection tbody tr:hover {
+    background-color: lightgray!important;
+    /*cursor:pointer!important;*/
+}
+
+.tableSection tr {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    font-size: 13px;
+}
+
+.tableSection tbody::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+/* Track */
+.tableSection tbody::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.tableSection tbody::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
